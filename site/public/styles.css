@@ -299,13 +299,13 @@ body {
 .the-img{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 
 .the-img img{
     width: 400px;
     border-radius: 10px;
-    margin: 60px 0px 40px 0px;
     box-shadow: #8C6F7B 0px 1px 4px!important;
 }
 
@@ -313,8 +313,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-right: 50px;
-    margin-left: 20px;
+    margin: 10px 50px 20px 20px;
+}
+
+.the-text > div{
+    width: 100%;
 }
 
 .the-text h1{
@@ -326,7 +329,7 @@ body {
     font-weight: 400!important;
 }
 
-@media (max-width: 700px){
+@media (max-width: 800px){
     .about-grid{
         display: flex;
         flex-direction: column;
@@ -334,8 +337,11 @@ body {
     }
 
     .the-text{
-        padding-left: 50px;
-        margin-top: 20px;
+        align-items: center;
+        margin: 20px 30px 20px 20px;
+    }
+    .the-text h4{
+        text-align: center;
     }
 }
 
@@ -347,6 +353,7 @@ body {
     }
     .the-text{
         align-items: center;
+        justify-content: center;
     }
     .the-text h4{
         text-align: center;
